@@ -192,9 +192,9 @@ while not fin:
         if pos==27:
             pos=0
     elif orden=="5":
-    #    pos=pos+5
-    #    if pos==27:
-    #        pos=pos-26
+        pos=pos+5
+        if pos==27:
+            pos=pos-26
         print(ArrayAString(texto))
     elif orden=="R":
         textoc=texto.copy()
